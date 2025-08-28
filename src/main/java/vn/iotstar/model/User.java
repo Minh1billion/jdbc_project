@@ -19,8 +19,7 @@ public class User implements Serializable {
 		super();
 	}
 	
-	public User(int id, String email, String userName, String fullName, String passWord, String avatar, int roleid,
-			String phone, Date createdDate) {
+	public User(int id, String email, String userName, String fullName, String passWord, String avatar, int roleid, String phone, Date createdDate) {
 		super();
 		this.id = id;
 		this.email = email;
@@ -32,6 +31,18 @@ public class User implements Serializable {
 		this.phone = phone;
 		this.createdDate = createdDate;
 	}
+	public User(String email, String userName, String fullName, String passWord, String avatar, int roleid, String phone, Date createdDate) {
+	    super();
+	    this.email = email;
+	    this.userName = userName;
+	    this.fullName = fullName;
+	    this.passWord = passWord;
+	    this.avatar = avatar;
+	    this.roleid = roleid;
+	    this.phone = phone;
+	    this.createdDate = createdDate;
+	}
+
 	public int getId() {
 		return id;
 	}

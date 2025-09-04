@@ -26,6 +26,7 @@
 
     <input type="text" name="username" placeholder="Tài khoản" required>
     <input type="password" name="password" placeholder="Mật khẩu" required>
+    <a href="<c:url value='/forgot-password' />">Quên mật khẩu?</a>
     <button type="submit">Đăng nhập</button>
 </form>
 
